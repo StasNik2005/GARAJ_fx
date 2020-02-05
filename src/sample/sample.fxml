@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="340.0" prefWidth="418.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="calculateButton" mnemonicParsing="false" onAction="#buttonCalculateClick" prefHeight="25.0" prefWidth="201.0" text="Create Object" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label prefHeight="17.0" prefWidth="37.0" text="Price" />
+      <TextField fx:id="price" alignment="CENTER" promptText="Price" GridPane.columnIndex="1" />
+      <TextField fx:id="speed" alignment="CENTER" promptText="speed" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label text="Speed" GridPane.rowIndex="1" />
+      <Label text="God" GridPane.rowIndex="2" />
+      <TextField fx:id="god" alignment="CENTER" promptText="Year" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextArea fx:id="info" prefHeight="200.0" prefWidth="354.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+   </children>
+</GridPane>
